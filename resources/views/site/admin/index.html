@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Шитьё, вышивание, вязание, декупаж, скрапбукинг, валяние, пэчворк, ателье, химчистка, рукоделие">
+		<meta name="author" content="">
+		<title>Рукоделие</title>
+		<link rel="shortcut icon" href="/LBptgVbp3aI.jpg" type="image/png">
+		<meta name="keywords" content="Шитьё, вышивание, вязание, декупаж, скрапбукинг, валяние, пэчворк, ателье, химчистка, рукоделие">
+		<link href="css.css" rel="stylesheet">
+		<link href="nav.css" rel="stylesheet">
+		<script src="js.js"></script>
+		
+	</head>
+	<body>
+		<header>
+				<div class="wrapper">
+					<nav>
+						<a href="#">Номера</a>
+						<a href="#">Клиенты</a>
+						<a href="#">Клиенты</a>
+						<a href="#">Клиенты</a>
+						<a href="#">Клиенты</a>
+						<a href="#">Клиенты</a>
+						<a href="#">Клиенты</a>
+					</nav>
+				</div>
+		</header>
+		<main>
+			<div class="wrapper_form">
+				<p>Название</p>
+				<input type="name">
+				<p>URL</p>
+				<input type="text">
+				<p>Фото</p>
+				<!--<input type="file">-->
+				<div class="fileform">
+					<div id="fileformlabel"></div>
+					<div class="selectbutton">Обзор</div>
+					<input type="file" multiple name="upload" id="upload" onchange="getName(this.value);">
+				</div>
+				<p>Текст</p>
+				<textarea></textarea>
+				<p>Альбом</p>
+				<!--<input type="file" multiple>-->
+				<div class="fileform">
+					<div id="fileformlabel"></div>
+					<div class="selectbutton">Обзор</div>
+					<input type="file" multiple name="upload2" id="upload" onchange="getName(this.value);">
+				</div>
+				<button id="save">Сохранить</button>
+			</div>
+			<div class="wrapper">
+			<a id="back" href="#"><div id="backdiv"></div><span>Назад</span></a></div>
+		</main>
+		<footer>
+			<div class="wrapper">
+				<p class="pull-left">© 2017 Все права защищены</p>
+				<p><a href="tel:+79219060183">+7-921-90-60-183</a></p>
+			</div>
+		</footer>
+	</body>
+</html>

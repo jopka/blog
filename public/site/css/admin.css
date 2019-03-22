@@ -1,0 +1,127 @@
+body{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 2.42857143;
+    color: #333;
+}
+.wrapper_form, .wrapper{
+	max-width:1024px;
+    margin:auto;
+}
+main p{
+	width:25%;
+	margin:10px 0;
+	text-align: right;
+	padding-right: 10px;
+	box-sizing: border-box;
+}
+
+input, button, select, textarea, .fileform {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button, input, optgroup, select, textarea, .fileform {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+
+input, textarea, .fileform, #save{
+	width:75%;
+	margin:10px 0;
+	box-sizing: border-box;
+}
+
+textarea {
+	height:250px;
+	resize:vertical;
+}
+
+main .wrapper_form{
+	display:flex;
+    flex-wrap:wrap;
+    justify-content: flex-end;
+}
+
+footer .wrapper{
+	display:flex;
+	justify-content: space-between;
+}
+
+.fileform { 
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 2px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    vertical-align: middle;
+}
+ 
+.fileform .selectbutton { 
+    background-color: #A2A3A3;
+    border: 1px solid #939494;
+    border-radius: 2px;
+    color: #FFFFFF;
+    float: right;
+    overflow: hidden;
+    padding: 2px 6px;
+    text-align: center;
+    vertical-align: middle;
+    width: 25%;
+	box-sizing: border-box;
+}
+ 
+.fileform #upload{
+    position:absolute; 
+    top:0; 
+    left:0; 
+    width:100%; 
+    -moz-opacity: 0; 
+    filter: alpha(opacity=0); 
+    opacity: 0; 
+    font-size: 150px; 
+    height: 30px; 
+    z-index:20;
+}
+
+.fileform #fileformlabel { 
+	background-color: #FFFFFF;
+	float: left;
+	overflow: hidden;
+	padding: 2px;
+	text-align: left;
+	vertical-align: middle;
+	width:75%;
+	box-sizing: border-box;
+}
+
+#back div{
+    border: 30px solid transparent;
+    border-right: 35px solid black;
+    display: inline-block;
+    margin: 0 18px 0 -18px;
+}
+
+#back{
+    display: flex;
+    align-items: center;
+    color: #333;
+    text-decoration: none;
+    width: min-content;
+}
+
+#back span{
+    margin-right: 10px;
+}
+
+#back:hover #backdiv{
+    border-right: 25px solid #a1a2a3;
+}
+
+#back:hover{
+    color: #a1a2a3;
+}
